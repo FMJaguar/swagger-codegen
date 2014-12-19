@@ -9,7 +9,7 @@ Swagger-compliant server.
 ## What's Swagger?
 
 The goal of Swagger™ is to define a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. When properly defined via Swagger, a consumer can understand and interact with the remote service with a minimal amount of implementation logic. Similar to what interfaces have done for lower-level programming, Swagger removes the guesswork in calling the service.
-
+s
 
 Check out [Swagger-Spec](https://github.com/swagger-api/swagger-spec) for additional information about the Swagger project, including additional libraries with support for other languages and more. 
 
@@ -161,7 +161,7 @@ ci server... or while coding on an airplane.
 
 ### Validating your swagger spec
 You can use the validation tool to see that your server is creating a proper spec file.  If you want to learn
-more about the spec file and format, please see [swagger-core](https://github.com/swagger-spec).  This
+more about the spec file and format, please see [swagger-core](https://github.com/swagger-api/swagger-spec).  This
 tool will read the server and generate a report of any violations of the spec.  If there are violations, the
 client codegen and ui may not work correctly.
 
